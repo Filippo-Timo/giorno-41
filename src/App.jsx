@@ -10,12 +10,12 @@ function App() {
 
   return (
     <>
-      <div>
+      <div class="container">
         <ButtonComponent text="Hello" />
         <ButtonComponent text="How are you?" />
         <ButtonComponent text="How is going?" />
       </div>
-      <div>
+      <div class="container">
         <ImageComponent src="https://placedog.net/100" alt="doggo" />
         <ImageComponent src="https://placedog.net/150" alt="doggo" />
         <ImageComponent src="https://placedog.net/200" alt="doggo" />
